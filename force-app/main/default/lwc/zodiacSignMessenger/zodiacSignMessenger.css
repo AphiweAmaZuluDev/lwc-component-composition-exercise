@@ -1,0 +1,15 @@
+.LButton {
+    width: fit-content;
+}
+
+.submitBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultsCard {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
