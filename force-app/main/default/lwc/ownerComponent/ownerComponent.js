@@ -6,4 +6,9 @@ export default class OwnerComponent extends LightningElement {
         {id: 2, name: 'Macbook Pro', rating: '4/5'},
         {id: 3, name: 'Humanity', rating:'5/5'}
     ]
+
+    callChildMethod() {
+        const childComponent = this.template.querySelector('c-child-component')
+        childComponent.handleParentCall()
+    }
 }
